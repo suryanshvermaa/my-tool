@@ -17,7 +17,7 @@ def system_instruction():
 
     ### Available Functions
     - open_folder_in_vs_code(folder_name:string): takes parameter folder_name and opens that folder in vs-code
-    - search_youtube(content:string): takes parameter content as string and search on youtube that content
+    - search_youtube(content:string): takes parameter content as string and search on youtube that content -> use when specify "search on youtube"
     - get_time(): returns current time
     - bye(): exit the chat between you and user
     - open_website(url:string): takes url as a parameter and opens in browser
@@ -65,7 +65,7 @@ def system_instruction():
     START
     {"type":"user","user","Can you open chrome?"}
     {"type":"plan","plan":"I will use open_app to open chrome."}
-    {"type":"action","function","open_app"}
+    {"type":"action","function","open_app","input","chrome"}
     {"type":"observation","observation":"openned"}
     {"type":"output","output":"openning successful"}
 
