@@ -10,7 +10,7 @@ tools={
     "open_docker":open_docker,
     "open_folder_in_vs_code":open_folder_in_vs_code,
     "open_folder":open_folder,
-    "shun_down":shut_down,
+    "shut_down":shut_down,
     "run_mailer":run_mail_js,
     "open_app":open_app
 }

@@ -20,6 +20,7 @@ def open_terminal():
     
     speak("Opening terminal.")
     time.sleep(2)  # Wait for terminal to open
+    return "openned"
 
 def get_time():
     now = datetime.datetime.now().strftime("%H:%M")
@@ -32,6 +33,8 @@ def bye():
 def search_youtube(query):
     url = f"https://www.youtube.com/results?search_query={query.replace(' ', '+')}"
     webbrowser.open(url)
+    return "openned"
 
 def open_website(url):
     webbrowser.open(url)
+    return "openned"
